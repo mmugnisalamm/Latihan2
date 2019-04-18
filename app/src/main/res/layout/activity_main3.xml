@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@color/lightBlue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Almost There"
+        android:textSize="35sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:id="@+id/almost"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for registering with us. One more
+step, you need to check your email
+to activate your account"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext"
+        android:text="VERIFY"
+        android:textColor="@android:color/white"
+        android:id="@+id/buttonVerify"/>
+
+</LinearLayout>

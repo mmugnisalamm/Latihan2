@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan 2</string>
+    <string name="register">doesn\'t have account?<b> Register</b></string>
+    <string name="code">doesn\'t get the code?<b> Resend</b></string>
+</resources>
